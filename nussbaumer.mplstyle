@@ -1,0 +1,30 @@
+figure.facecolor: white
+
+
+axes.edgecolor: white
+axes.facecolor: white
+axes.grid: False
+
+axes.labelcolor: grey
+axes.labelsize: 12
+axes.linewidth: 0
+#axes.prop_cycle: cycler('color', ['4C72B0', '55A868', 'C44E52', '8172B2', 'CCB974', '64B5CD'])
+axes.titlesize: 14
+
+xtick.color: grey
+xtick.direction: out
+#xtick.labelsize: 12
+xtick.major.pad: 7
+xtick.major.size: 0
+xtick.major.width: 0.5
+xtick.minor.size: 0
+xtick.minor.width: .5
+
+ytick.color: grey
+ytick.direction: out
+#ytick.labelsize: 12
+ytick.major.pad: 7
+ytick.major.size: 0
+ytick.major.width: 0.5
+ytick.minor.size: 0
+ytick.minor.width: .5
