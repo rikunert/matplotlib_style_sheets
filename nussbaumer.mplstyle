@@ -1,30 +1,52 @@
 figure.facecolor: white
 
+# Axes colours
+axes.edgecolor: D8D8D8  ## axes edge color (rgb 216, 216, 216)
+axes.linewidth : 0.75   ## edge linewidth
+#axes.axisbelow: True   ## draw axis gridlines and ticks below
+                        ## patches (True); above patches but below
+                        ## lines ('line'); or above all (False)
+axes.spines.left   : True   ## display axis spines
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right : False
 
-axes.edgecolor: white
-axes.facecolor: white
-axes.grid: False
+axes.facecolor: white   ## axes background color
+axes.grid: False        ## display grid or not
 
-axes.labelcolor: grey
-axes.labelsize: 12
-axes.linewidth: 0
-#axes.prop_cycle: cycler('color', ['4C72B0', '55A868', 'C44E52', '8172B2', 'CCB974', '64B5CD'])
-axes.titlesize: 14
+# Misc
+axes.prop_cycle: cycler('color', ['4C72B0', '55A868', 'C44E52', '8172B2', 'CCB974', '64B5CD'])
+#text.color: 808080 ## (rgb 128, 128, 128)  # does not control all text, only text boxes
 
-xtick.color: grey
+# Axes title
+axes.titlesize: 20
+#axes.title.color: 808080 ## (rgb 128, 128, 128)  # doesn't work
+axes.titlepad: 10
+
+# x-axis and y-axis title
+axes.labelcolor: 808080 ## (rgb 128, 128, 128)
+axes.labelsize: 14
+
+# x-axis
+xtick.color: D8D8D8  ## (rgb 216, 216, 216)
 xtick.direction: out
-#xtick.labelsize: 12
+xtick.labelsize: 12
 xtick.major.pad: 7
-xtick.major.size: 0
+xtick.major.size: 3
 xtick.major.width: 0.5
-xtick.minor.size: 0
-xtick.minor.width: .5
+xtick.minor.visible : False ## visibility of minor ticks on x-axis
+xtick.alignment : center ## alignment of xticklabels
 
-ytick.color: grey
+# xtick.label.color: 808080 ## (rgb 128, 128, 128) # doesn't work
+# axes.xlabelcolor = 808080 ## (rgb 128, 128, 128) # doesn't work
+
+# y-axis
+ytick.color: D8D8D8  ## (rgb 216, 216, 216)
 ytick.direction: out
-#ytick.labelsize: 12
+ytick.labelsize: 12
 ytick.major.pad: 7
-ytick.major.size: 0
+ytick.major.size: 3
 ytick.major.width: 0.5
 ytick.minor.size: 0
 ytick.minor.width: .5
+ytick.alignment : center_baseline ## alignment of yticklabels
